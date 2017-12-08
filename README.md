@@ -34,13 +34,13 @@ Experimental extension of dialogue-map
 
 ##Client-side development
 - `npm start`
-- [http://localhost:3000](http://localhost:3000)
+- [http://localhost:3333](http://localhost:3333)
 
 Rebuilds the client code in-memory & uses hot module reload so you can give <F5> a break.
 
 ##Server-side development
 - `npm run prod`
-- [http://localhost:3000](http://localhost:3000)
+- [http://localhost:3333](http://localhost:3333)
 - If you edit any client or universal files, run `npm run bs` to rebuild & serve the bundle
 
 This mode enables changes to the server ***without to client code recompilation***.
@@ -50,7 +50,7 @@ That means you only wait for the server to restart!
 - [http://localhost:8080](http://localhost:8080) for RethinkDB
 - All tables are managed in `./src/server/setupDB.js`. Just add your tables & indices to that file and rerun
 - A standard ORM might check for tables & ensure indices at least once per build. Doing it this way keeps your build times down
-- [http://localhost:3000/graphql](http://localhost:3000/graphql) for testing out new queries/mutations
+- [http://localhost:3333/graphql](http://localhost:3333/graphql) for testing out new queries/mutations
 
 ##Webpack configs
 ####Development config
