@@ -7,9 +7,11 @@ export default store => {
       require('./landing'),
       require('./maps')(store),
       require('./blog')(store),
+      require('./guild')(store),
       require('./accounts')(store),
       require('./graphql'),
       require('./notFound')(store)
     ]
   };
 };
+//      require('./guilds')(store),

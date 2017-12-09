@@ -7,7 +7,8 @@ import TextField from 'material-ui/TextField';
 import {createPost} from '../ducks/posts';
 import styles from './PostForm.css';
 
-//A form for new blog posts
+//A form for new Guilds
+//TODO modify the html in this
 export default class PostForm extends Component {
   static propTypes = {
     fields: PropTypes.shape({
@@ -80,7 +81,7 @@ export default class PostForm extends Component {
   }
 
   onSubmit = (data, dispatch) => {
-    const redirectRoute = '/blog';
+    const redirectRoute = '/guilds';
     return createPost(dispatch, data, redirectRoute);
   }
 }

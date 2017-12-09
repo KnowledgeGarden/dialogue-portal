@@ -4,6 +4,7 @@ import {RouterContext} from 'react-router';
 import {renderToString} from 'react-dom-stream/server';
 
 // Injects the server rendered state and app into a basic html template
+// See /universal/containers/SinglePage/SinglePageContainer.js
 export default class Html extends Component {
   static propTypes = {
     store: PropTypes.object.isRequired,

@@ -10,3 +10,4 @@ coverage
 .flooignore
 package-lock.json
 DialogueMapNotes.txt
+notes.txt

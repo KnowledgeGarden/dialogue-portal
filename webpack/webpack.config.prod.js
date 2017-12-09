@@ -28,6 +28,7 @@ const vendor = [
 ];
 
 // why this helps not yet fully documented. see webpack/webpack#1566
+//TODO this needs rethinking in terms of other apps
 export const prefetches = [
   'joi/lib/index.js',
   'universal/modules/maps/containers/Maps/MapsContainer.js',

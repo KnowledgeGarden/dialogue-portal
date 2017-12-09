@@ -94,6 +94,7 @@ export default class App extends Component {
           />
           <Link to="/blog"><MenuItem onTouchTap={this.handleToggleMenu}>Blog</MenuItem></Link>
           <Link to="/maps"><MenuItem onTouchTap={this.handleToggleMenu}>Dialogue Map</MenuItem></Link>
+          <Link to="/guilds"><MenuItem onTouchTap={this.handleToggleMenu}>Guilds</MenuItem></Link>
         </Drawer>
         <div style={{paddingTop: '160px'}}>
           {children}

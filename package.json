@@ -108,7 +108,7 @@
     "jwt-decode": "2.0.1",
     "material-ui": "0.15.0",
     "morgan": "1.7.0",
-    "node-uuid": "1.4.7",
+    "uuid": "3.1.0",
     "parse-rethinkdb-url": "0.0.1",
     "piping": "1.0.0-rc.1",
     "postcss-modules-values": "1.1.3",

@@ -6,7 +6,7 @@ import {setAppBar} from 'universal/modules/app/ducks/app';
 // see https://github.com/reactjs/react-router/blob/master/docs/API.md
 export default function (store) {
   const {dispatch} = store;
-  const title = () => dispatch(setAppBar({title: 'Blog', route: '/blog/post', permission: 'ADMINISTRATOR'}));
+  const title = () => dispatch(setAppBar({title: 'Blogs', route: '/blog/post', permission: 'ADMINISTRATOR'}));
   return {
     path: 'blog',
     component: AppContainer,
@@ -26,6 +26,7 @@ export default function (store) {
   };
 }
 
+//TODO consider WeakMap to avoid memory leaks
 function setBlogImports() {
   return new Map([
     ['component', System.import('universal/modules/blog/containers/BlogContainer')],
